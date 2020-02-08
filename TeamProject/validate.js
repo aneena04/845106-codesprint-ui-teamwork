@@ -15,7 +15,7 @@ function giftCardOrders(){
         giftsArray.push(gifts);
         localStorage.setItem("gifts",JSON.stringify(giftsArray));
 
-        window.open('vielist.html');
+        window.open('viewlist.html');
 
     }
 
